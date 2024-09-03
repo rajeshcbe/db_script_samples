@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `rest_db`;
+
 DROP TABLE IF EXISTS `report_access_log`;
 CREATE TABLE `report_access_log` (
  `id` varchar(10) NOT NULL,
